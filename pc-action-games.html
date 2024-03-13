@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- nav section  -->
+    <div id="nav-container">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active ps-3"
+                  aria-current="page"
+                  href="home.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle ps-3"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Games
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="pc-games.html">PC Games</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="mobile-games.html"
+                      >Mobile Games</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown ps-4">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <i class="fa-solid fa-circle-user"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                  <li><a class="dropdown-item" href="#">Setting</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Log-out / Sing-in</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div id="games">
+      <div class="games-container">
+        <div class="title">
+          <h1 class="text-white py-4">Browse Games</h1>
+          <a href="pc-action-games.html">
+            <button type="button" class="btn btn-outline-secondary py-2">
+              Action
+            </button>
+          </a>
+          <a href="pc-br-games.html">
+            <button type="button" class="btn btn-outline-secondary py-2">
+              Battle Royale
+            </button>
+          </a>
+          <a href="pc-puzzle-games.html">
+            <button type="button" class="btn btn-outline-secondary py-2">
+              Puzzle
+            </button>
+          </a>
+          <a href="pc-simulation-games.html">
+            <button type="button" class="btn btn-outline-secondary py-2">
+              Simulation
+            </button>
+          </a>
+        </div>
+        <div class="container">
+          <div class="games-item-container">
+            <div class="pc-games-container">
+              <h1>Action Games</h1>
+              <!-- PC-games  -->
+              <div class="item-container">
+                <div class="container text-center">
+                  <div class="row align-items-start">
+                    <div class="col col-4 py-4">
+                      <div class="card">
+                        <img
+                          src="https://cdn.akamai.steamstatic.com/steam/apps/782330/header.jpg?t=1702308063"
+                          class="card-img-top pt-4"
+                          alt="..."
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title text-white">DOOM Eternal</h5>
+                          <i class="bi bi-steam px-4 text-white"></i>
+                          <i class="bi bi-playstation px-4 text-white"></i>
+                          <i class="bi bi-xbox px-4 text-white"></i>
+                          <section>
+                            <i
+                              class="bi bi-cloud-arrow-down-fill pe-5 text-white"
+                              >7.8k</i
+                            >
+                            <i class="bi bi-star-fill ps-5 text-white">6.3</i>
+                          </section>
+                          <p class="card-text text-dark w-75 text-white">
+                            Hell’s armies have invaded Earth. Become the Slayer
+                            in an epic single-player campaign to conquer demons
+                            across dimensions and stop the final destruction of
+                            humanity.
+                          </p>
+                          <a href="#" class="btn btn-primary text-white"
+                            >Download Now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col col-4 py-4">
+                      <div class="card">
+                        <img
+                          src="https://cdn.akamai.steamstatic.com/steam/apps/374320/header.jpg?t=1700587390"
+                          class="card-img-top pt-4"
+                          alt="..."
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title text-white">Dark Souls III</h5>
+                          <i class="bi bi-steam px-4 text-white"></i>
+                          <i class="bi bi-playstation px-4 text-white"></i>
+                          <i class="bi bi-xbox px-4 text-white"></i>
+                          <section>
+                            <i
+                              class="bi bi-cloud-arrow-down-fill pe-5 text-white"
+                              >7.8k</i
+                            >
+                            <i class="bi bi-star-fill ps-5 text-white">6.3</i>
+                          </section>
+                          <p class="card-text text-dark w-75 text-white">
+                            Dark Souls continues to push the boundaries with the
+                            latest, ambitious chapter in the
+                            critically-acclaimed and genre-defining series.
+                            Prepare yourself and Embrace The Darkness!
+                          </p>
+                          <a href="#" class="btn btn-primary text-white"
+                            >Download Now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col col-4 py-4">
+                      <div class="card">
+                        <img
+                          src="https://cdn.akamai.steamstatic.com/steam/apps/292030/header.jpg?t=1693590732"
+                          class="card-img-top pt-4"
+                          alt="..."
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title text-white">
+                            The Witcher 3: Wild Hunt
+                          </h5>
+                          <i class="bi bi-steam px-4 text-white"></i>
+                          <i class="bi bi-playstation px-4 text-white"></i>
+                          <i class="bi bi-xbox px-4 text-white"></i>
+                          <section>
+                            <i
+                              class="bi bi-cloud-arrow-down-fill pe-5 text-white"
+                              >7.8k</i
+                            >
+                            <i class="bi bi-star-fill ps-5 text-white">6.3</i>
+                          </section>
+                          <p class="card-text text-dark w-75 text-white">
+                            You are Geralt of Rivia, mercenary monster slayer.
+                            Before you stands a war-torn, monster-infested
+                            continent you can explore at will. Your current
+                            contract?
+                          </p>
+                          <a href="#" class="btn btn-primary text-white"
+                            >Download Now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col col-4 py-4">
+                      <div class="card">
+                        <img
+                          src="https://cdn.akamai.steamstatic.com/steam/apps/582010/header.jpg?t=1709235093"
+                          class="card-img-top pt-4"
+                          alt="..."
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title text-white">
+                            Monster Hunter: World
+                          </h5>
+                          <i class="bi bi-steam px-4 text-white"></i>
+                          <i class="bi bi-playstation px-4 text-white"></i>
+                          <i class="bi bi-xbox px-4 text-white"></i>
+                          <section>
+                            <i
+                              class="bi bi-cloud-arrow-down-fill pe-5 text-white"
+                              >7.8k</i
+                            >
+                            <i class="bi bi-star-fill ps-5 text-white">6.3</i>
+                          </section>
+                          <p class="card-text text-dark w-75 text-white">
+                            Welcome to a new world! In Monster Hunter: World,
+                            the latest installment in the series, you can enjoy
+                            the ultimate hunting experience, using everything at
+                            your disposal to hunt monsters in a new world
+                            teeming with surprises and excitement.
+                          </p>
+                          <a href="#" class="btn btn-primary text-white"
+                            >Download Now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col col-4 py-4">
+                      <div class="card">
+                        <img
+                          src="https://cdn.akamai.steamstatic.com/steam/apps/814380/header.jpg?t=1678991267"
+                          class="card-img-top pt-4"
+                          alt="..."
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title text-white">
+                            Sekiro: Shadows Die Twice
+                          </h5>
+                          <i class="bi bi-steam px-4 text-white"></i>
+                          <i class="bi bi-playstation px-4 text-white"></i>
+                          <i class="bi bi-xbox px-4 text-white"></i>
+                          <section>
+                            <i
+                              class="bi bi-cloud-arrow-down-fill pe-5 text-white"
+                              >7.8k</i
+                            >
+                            <i class="bi bi-star-fill ps-5 text-white">6.3</i>
+                          </section>
+                          <p class="card-text text-dark w-75 text-white">
+                            Game of the Year - The Game Awards 2019 Best Action
+                            Game of 2019 - IGN Carve your own clever path to
+                            vengeance in the award winning adventure from
+                            developer FromSoftware, creators of Bloodborne and
+                            the Dark Souls series. Take Revenge.
+                          </p>
+                          <a href="#" class="btn btn-primary text-white"
+                            >Download Now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col col-4 py-4">
+                      <div class="card">
+                        <img
+                          src="https://cdn.akamai.steamstatic.com/steam/apps/367520/header.jpg?t=1695270428"
+                          class="card-img-top pt-4"
+                          alt="..."
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title text-white">Hollow Knight</h5>
+                          <i class="bi bi-steam px-4 text-white"></i>
+                          <i class="bi bi-playstation px-4 text-white"></i>
+                          <i class="bi bi-xbox px-4 text-white"></i>
+                          <section>
+                            <i
+                              class="bi bi-cloud-arrow-down-fill pe-5 text-white"
+                              >7.8k</i
+                            >
+                            <i class="bi bi-star-fill ps-5 text-white">6.3</i>
+                          </section>
+                          <p class="card-text text-dark w-75 text-white">
+                            Forge your own path in Hollow Knight! An epic action
+                            adventure through a vast ruined kingdom of insects
+                            and heroes. Explore twisting caverns, battle tainted
+                            creatures and befriend bizarre bugs, all in a
+                            classic, hand-drawn 2D style.
+                          </p>
+                          <a href="#" class="btn btn-primary text-white"
+                            >Download Now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mobile Simulation Games</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- nav section  -->
+    <div id="nav-container">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="home.html">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active ps-3"
+                  aria-current="page"
+                  href="home.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle ps-3"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Games
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="pc-games.html">PC Games</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="mobile-games.html"
+                      >Mobile Games</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown ps-4">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <i class="fa-solid fa-circle-user"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                  <li><a class="dropdown-item" href="#">Setting</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Log-out / Sing-in</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="games-container">
+      <div class="title">
+        <h1 class="text-white py-4">Browse Games</h1>
+        <a href="mobile-action-games.html">
+          <button type="button" class="btn btn-outline-secondary py-2">
+            Action
+          </button></a
+        >
+        <a href="mobile-br-games.html">
+          <button type="button" class="btn btn-outline-secondary py-2">
+            Battle Royale
+          </button>
+        </a>
+        <a href="mobile-puzzle-games.html"
+          ><button type="button" class="btn btn-outline-secondary py-2">
+            Puzzle
+          </button>
+        </a>
+        <a href="mobile-simulation-games.html"
+          ><button type="button" class="btn btn-outline-secondary py-2">
+            Simulation
+          </button>
+        </a>
+      </div>
+      <div class="container">
+        <div class="games-item-container">
+          <div class="container pt-2">
+            <div class="mobile-games-container">
+              <h1>Simulation Games</h1>
+              <div class="item-container">
+                <div class="container text-center">
+                  <div class="row align-items-start">
+                    <div class="col col-4 py-4">
+                      <div class="card">
+                        <img
+                          src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSy9rljme-GlEC-E55vZ1xDishp8961Wmrc2UKlZUNuIKyEnbCQLrXV5mqx"
+                          class="card-img-top pt-4"
+                          alt="..."
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title text-white">The Sims Mobile</h5>
+                          <i
+                            class="fa-brands fa-google-play px-4 text-white"
+                          ></i>
+                          <i
+                            class="fa-brands fa-app-store-ios px-4 text-white"
+                          ></i>
+
+                          <section>
+                            <i
+                              class="bi bi-cloud-arrow-down-fill pe-5 text-white"
+                              >7.8k</i
+                            >
+                            <i class="bi bi-star-fill ps-5 text-white">6.3</i>
+                          </section>
+                          <p class="card-text text-dark w-75 text-white">
+                            In The Sims Mobile, players are able to create
+                            unique Sims with the in-game character creator
+                            (Create-a-Sim), build houses, start families and
+                            control the lives of their Sims. The game introduces
+                            multiplayer elements, as players can 'interact with
+                            other players' Sims by attending their parties,
+                            tapping on an NPC (non-playable character), or
+                            rating their Sims as through a sticker system.
+                          </p>
+                          <a href="#" class="btn btn-primary text-white"
+                            >Download Now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col col-4 py-4">
+                      <div class="card">
+                        <img
+                          src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcShpXYjtL6sjhZCplF98zbDAmV_e_23sJjnpjifKqWV0EuSriZi253l_AO0"
+                          class="card-img-top pt-4"
+                          alt="..."
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title text-white">SimCity BuildIt</h5>
+                          <i
+                            class="fa-brands fa-google-play px-4 text-white"
+                          ></i>
+                          <i
+                            class="fa-brands fa-app-store-ios px-4 text-white"
+                          ></i>
+
+                          <section>
+                            <i
+                              class="bi bi-cloud-arrow-down-fill pe-5 text-white"
+                              >7.8k</i
+                            >
+                            <i class="bi bi-star-fill ps-5 text-white">6.3</i>
+                          </section>
+                          <p class="card-text text-dark w-75 text-white">
+                            The game is freemium (free-to-play with pop-up
+                            advertisements and in-game purchases). It utilizes
+                            music and graphics similar to the 2013 SimCity game,
+                            although it is slightly downscaled in order to fit
+                            in with iOS and Android devices' graphic
+                            capabilities. The game starts with 25,000 simoleons
+                            (standard in-game currency) and 50 SimCash (premium
+                            currency) on hand.
+                          </p>
+                          <a href="#" class="btn btn-primary text-white"
+                            >Download Now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col col-4 py-4">
+                      <div class="card">
+                        <img
+                          src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTOebSUxGyO9U4TplB2_y-m44j1ZUhmztCiTLF61PG4YxRol-s3GN6Xs2w"
+                          class="card-img-top pt-4"
+                          alt="..."
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title text-white">Plague Inc</h5>
+                          <i
+                            class="fa-brands fa-google-play px-4 text-white"
+                          ></i>
+                          <i
+                            class="fa-brands fa-app-store-ios px-4 text-white"
+                          ></i>
+
+                          <section>
+                            <i
+                              class="bi bi-cloud-arrow-down-fill pe-5 text-white"
+                              >7.8k</i
+                            >
+                            <i class="bi bi-star-fill ps-5 text-white">6.3</i>
+                          </section>
+                          <p class="card-text text-dark w-75 text-white">
+                            Plague Inc. is a strategy-simulation game in which
+                            the player indirectly controls a plague, which has
+                            infected patient zero. The player can choose between
+                            game modes and pathogens and complete the objective
+                            set by the game mode by evolving the plague and
+                            adapting to various environments. The goals include,
+                            but are not limited to, infecting and killing the
+                            world's population with...
+                          </p>
+                          <a href="#" class="btn btn-primary text-white"
+                            >Download Now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col col-4 py-4">
+                      <div class="card">
+                        <img
+                          src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSfpXOVKbXLP374vIf-mzoZuJpySg_mZ6tBeJnRFvDohWEy7CWYctwuqmmc"
+                          class="card-img-top pt-4"
+                          alt="..."
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title text-white">Fallout Shelter</h5>
+                          <i
+                            class="fa-brands fa-google-play px-4 text-white"
+                          ></i>
+                          <i
+                            class="fa-brands fa-app-store-ios px-4 text-white"
+                          ></i>
+
+                          <section>
+                            <i
+                              class="bi bi-cloud-arrow-down-fill pe-5 text-white"
+                              >7.8k</i
+                            >
+                            <i class="bi bi-star-fill ps-5 text-white">6.3</i>
+                          </section>
+                          <p class="card-text text-dark w-75 text-white">
+                            In Fallout Shelter, players build and manage their
+                            Vault as an Overseer, its leader and coordinator.
+                            Players guide and direct the citizens of the Vault,
+                            known as dwellers, and need to keep them happy
+                            through meeting their needs such as power, food, and
+                            water.They rescue dwellers from the wasteland and
+                            assign them to different resource-generating
+                            buildings in the Vault, using the SPECIAL statistics
+                            system from the other Fallout games.
+                          </p>
+                          <a href="#" class="btn btn-primary text-white"
+                            >Download Now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col col-4 py-4">
+                      <div class="card">
+                        <img
+                          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu3jrIYikKWeJzM5hsDWchP_DUHAd0IlKBqfR455DWyLXpemOQ95Ik_xo"
+                          class="card-img-top pt-4"
+                          alt="..."
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title text-white">
+                            Virtual Families 2
+                          </h5>
+                          <i
+                            class="fa-brands fa-google-play px-4 text-white"
+                          ></i>
+                          <i
+                            class="fa-brands fa-app-store-ios px-4 text-white"
+                          ></i>
+
+                          <section>
+                            <i
+                              class="bi bi-cloud-arrow-down-fill pe-5 text-white"
+                              >7.8k</i
+                            >
+                            <i class="bi bi-star-fill ps-5 text-white">6.3</i>
+                          </section>
+                          <p class="card-text text-dark w-75 text-white">
+                            Your little family continues to live, eat, grow, and
+                            work when the app is switched off. Along the way,
+                            there will be many different random events to
+                            respond to, all of them adding surprise to this
+                            simulation game and unexpected elements to routine,
+                            daily virtual life. Find highly varied,
+                            unpredictable game play. No two games run the same;
+                            the story unfolds differently for everyone who plays
+                            it. This simulation game is designed to have a life
+                            of its own.
+                          </p>
+                          <a href="#" class="btn btn-primary text-white"
+                            >Download Now</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
